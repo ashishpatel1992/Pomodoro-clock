@@ -1,0 +1,57 @@
+.jumbotron{
+  text-align:center;
+  background:#2B343D;
+  color:white;
+}
+.container{
+  min-height:100%;
+}
+.clock{
+  cursor:pointer;
+  border: 4px solid #039BE5;
+  height:500px;
+  width:500px;
+  border-radius:50%;
+}
+.pclock-title,.time{
+  text-align:center;
+}
+.pclock-title{
+  font-size:55px;
+  margin-top:100px;
+}
+.time{
+  font-size:75px;
+  margin-top:50px;
+}
+.break-time,.session-time{
+  padding-left:10px;
+  padding-right:10px;
+}
+.btn{
+  background:#2B343D;
+  color:white;
+}
+.btn:hover{
+  background:#039BE5;
+  cursor:pointer;
+}
+.footer-main{
+  text-align:center;
+  background:black;
+  color:white;
+  margin-top:50px;
+  padding:25px;
+  bottom:0;
+}
+.footer-text{
+  height:50px;
+  padding:10px;
+}
+.footer-author{
+  font-weight: bolder;
+}
+
+/* .fill-color{
+  background-image:-webkit-linear-gradient(bottom, #fff708, #fff708 20%, transparent 0%, transparent 100%);
+} */

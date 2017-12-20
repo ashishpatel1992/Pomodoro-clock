@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron"><h1>Pandora Clock</h1></div>
+      <div class="row buttons">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+          <div class="break">
+            <p class="break-title">BREAK LENGTH</p>
+            <p class="break-timer">
+              <button type="button" class="btn btn-break-add">+</button>
+              <span class="break-time">0</span>
+              <button type="button" class="btn btn-break-sub">-</button>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5">
+        <div class="session">
+          <p class="session-title">SESSION LENGTH</p>
+          <p class="session-timer">
+            <button type="button" class="btn btn-session-add">+</button>
+            <span class="session-time">0</span>
+            <button type="button" class="btn btn-session-sub">-</button>
+          </p>
+        </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-5">
+         <div id="#p-clock" class="clock fill-color">
+           <p class="pclock-title">SESSION</p>
+           <p class="time">00:00</p>
+
+         </div>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+
+      </div>
+    </div>
+    <footer class="footer-main">
+      <div class="footer-text">
+          <p>&copy; 2017 by <span class="footer-author">Ashish Patel</span> for FreeCodeCamp project</p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="custom.js" charset="utf-8"></script>
+  </body>
+</html>
